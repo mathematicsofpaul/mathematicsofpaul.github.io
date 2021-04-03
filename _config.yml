@@ -163,7 +163,6 @@ incremental: false
 
 # Markdown Processing
 kramdown:
-  math_engine: katex
   input: GFM
   hard_wrap: false
   auto_ids: true
@@ -172,7 +171,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
+  math_engine: katex
 
 # Collections
 collections:
